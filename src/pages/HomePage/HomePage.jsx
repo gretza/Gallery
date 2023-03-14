@@ -1,4 +1,4 @@
-import "./HomePage.css";
+import styles from "./HomePage.module.css";
 import Topic from "../../components/Topic/Topic";
 import Button from "../../components/Button/Button";
 import { useState } from "react";
@@ -11,7 +11,7 @@ const HomePage = () => {
   };
 
   return (
-    <div className="home-page">
+    <div className={styles.homePage}>
       <Topic
         title="Welcome to Modern Art Museum"
         description="An exceptional opportunity to experience – and meet! – the works of world-renowned artists, such as Guerrilla Girls, Andy Warhol, Yves Klein and the others!"

@@ -1,8 +1,8 @@
-button {
+.button {
  border-radius: 10px;
  background-color: rgb(149, 8, 8);
  padding: 10px 20px;
- color: rgb(224, 195, 195);
+ color: rgb(223, 187, 187);
  border: none;
  cursor: pointer;
 };

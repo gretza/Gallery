@@ -15,8 +15,6 @@ const styleMap = {
   12: styles.twelve,
 };
 
-console.log(styleMap);
-
 const Grid = ({ children, columns = 3, className = "" }) => {
   return (
     <div className={`${styles.root} ${styleMap[columns]} ${className}`}>

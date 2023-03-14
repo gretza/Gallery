@@ -3,7 +3,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 30px;
-    background-color: rgb(192, 14, 76);
+    background-color: rgb(190, 65, 65);
     padding: 20px;
     color: rgb(224, 195, 195);
 }
@@ -15,4 +15,5 @@ nav {
 
 h1 {
  font-size: large;
+ color: rgb(29, 7, 7);
 }

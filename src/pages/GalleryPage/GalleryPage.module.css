@@ -1,0 +1,9 @@
+.buttonContainer {
+    display: flex;
+    justify-content: end;
+}
+
+.loader {
+    text-align: center;
+    font-size: xx-large;
+}
