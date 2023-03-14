@@ -2,11 +2,6 @@ import React from "react";
 import styles from "./PictureCard.module.css";
 
 const PictureCard = ({ src, alt, title }) => {
-
-
-
-
-  
   return (
     <div>
       <div className={styles.root}>
